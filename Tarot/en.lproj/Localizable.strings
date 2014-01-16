@@ -1,0 +1,17 @@
+/* 
+  Localization.strings
+  TaroCardGame
+
+  Created by huangyimin on 12-12-18.
+
+*/
+"singleCardDivine" = "Single Card Divine";
+"title" = "Tarot";
+"begin" = "Begin";
+
+"tableTarotMean" = "TAROT_MEAN_EN";
+
+"next" = "Next";
+"retry" = "Retry";
+"normal" = "Normal";
+"reverse" = "Reversed";

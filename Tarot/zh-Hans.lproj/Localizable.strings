@@ -1,0 +1,17 @@
+/* 
+  Localization.strings
+  TaroCardGame
+
+  Created by huangyimin on 12-12-18.
+
+*/
+"singleCardDivine" = "单牌占卜法";
+"title" = "塔罗";
+"begin" = "开始";
+
+"tableTarotMean" = "TAROT_MEAN_CN";
+
+"next" = "下一步";
+"retry" = "重玩";
+"normal" = "正位";
+"reverse" = "逆位";

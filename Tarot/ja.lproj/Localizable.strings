@@ -1,0 +1,17 @@
+/* 
+  Localization.strings
+  TaroCardGame
+
+  Created by huangyimin on 12-12-18.
+
+*/
+"singleCardDivine" = "シングルカードディバイン";
+"title" = "タロット";
+"begin" = "スタート";
+
+"tableTarotMean" = "TAROT_MEAN_JP";
+
+"next" = "ネクスト";
+"retry" = "もう一度";
+"normal" = "正位置";
+"reverse" = "逆位置";
