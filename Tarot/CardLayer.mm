@@ -122,9 +122,9 @@ enum {
         b2FixtureDef fixtureDef;
         fixtureDef.shape = &dynamicCard;
         // 密度
-        fixtureDef.density = .6f;
+        fixtureDef.density = 0.6f;
         // 摩擦力
-        fixtureDef.friction = .8f;
+        fixtureDef.friction = 0.8f;
         body->CreateFixture(&fixtureDef);
     }
     

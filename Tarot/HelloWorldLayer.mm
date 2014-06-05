@@ -47,7 +47,7 @@
         // 背景精灵
         CCSprite *bgSprite = [CCSprite spriteWithFile:@"Default.png"];
         bgSprite.rotation = 90;
-        bgSprite.position = ccp(size.width/2, size.height/2 + 20.0f);
+        bgSprite.position = ccp(size.width/2, size.height/2+20.0f);
         bgSprite.scale = size.width / bgSprite.textureRect.size.height * 1.2f;
 		[self addChild:bgSprite z:0];
 		
@@ -62,12 +62,12 @@
             CCTransitionFade *tran = [CCTransitionFade transitionWithDuration:1 scene:mainScene withColor:ccBLACK];
             [[CCDirector sharedDirector] replaceScene:tran];
 		}
-									   ];
+        ];
 		
 		CCMenu *menu = [CCMenu menuWithItems:itemSingleCard, nil];
 		
 		[menu alignItemsHorizontallyWithPadding:20];
-		[menu setPosition:ccp( size.width/2 + 10, size.height/2 - 50)];
+		[menu setPosition:ccp( size.width/2+10, size.height/2-50)];
         
 		// Add the menu to the layer
 		[self addChild:menu];
