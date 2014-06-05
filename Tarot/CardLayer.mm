@@ -310,14 +310,14 @@ enum {
     
     // 定义一个shape，并绑定至fixture容器
     b2PolygonShape dynamicTouch;
-    dynamicTouch.SetAsBox(0.3f, 0.3f);
+    dynamicTouch.SetAsBox(.3f, .3f);
     
     b2FixtureDef fixtureDef;
     fixtureDef.shape = &dynamicTouch;
     // 密度
-    fixtureDef.density = 0.6f;
+    fixtureDef.density = .6f;
     // 摩擦力
-    fixtureDef.friction = 0.8f;
+    fixtureDef.friction = .8f;
     touchBody->CreateFixture(&fixtureDef);
     
     touchBodyIsAlive = YES;
