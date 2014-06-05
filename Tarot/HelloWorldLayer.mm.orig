@@ -47,7 +47,11 @@
         // 背景精灵
         CCSprite *bgSprite = [CCSprite spriteWithFile:@"Default.png"];
         bgSprite.rotation = 90;
+<<<<<<< HEAD
+        bgSprite.position = ccp(size.width/2, size.height/2+20.0f);
+=======
         bgSprite.position = ccp(size.width / 2, size.height / 2 + 20.0f);
+>>>>>>> origin/master
         bgSprite.scale = size.width / bgSprite.textureRect.size.height * 1.2f;
 		[self addChild:bgSprite z:0];
 		
@@ -61,12 +65,21 @@
             [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"bgm_fortune.mp3" loop:YES];
             CCTransitionFade *tran = [CCTransitionFade transitionWithDuration:1 scene:mainScene withColor:ccBLACK];
             [[CCDirector sharedDirector] replaceScene:tran];
+<<<<<<< HEAD
+		}
+        ];
+=======
 		}];
+>>>>>>> origin/master
 		
 		CCMenu *menu = [CCMenu menuWithItems:itemSingleCard, nil];
 		
 		[menu alignItemsHorizontallyWithPadding:20];
+<<<<<<< HEAD
+		[menu setPosition:ccp( size.width/2+10, size.height/2-50)];
+=======
 		[menu setPosition:ccp(size.width / 2 + 10, size.height / 2 - 50)];
+>>>>>>> origin/master
         
 		// Add the menu to the layer
 		[self addChild:menu];

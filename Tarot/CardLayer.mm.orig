@@ -122,11 +122,16 @@ enum {
         b2FixtureDef fixtureDef;
         fixtureDef.shape = &dynamicCard;
         // 密度
+<<<<<<< HEAD
         fixtureDef.density = 0.6f;
         // 摩擦力
         fixtureDef.friction = 0.8f;
+=======
+        fixtureDef.density = .65f;
+        // 摩擦力
+        fixtureDef.friction = .85f;
+>>>>>>> origin/master
         body->CreateFixture(&fixtureDef);
-        NSLog(@"摩擦力：%f 密度：%f", fixtureDef.friction, fixtureDef.density);
     }
     
 }
@@ -172,6 +177,8 @@ enum {
 {
     // 因为应用是左横屏，加速度的x,y分别取加速计的y轴加速度和-x加速度
     b2Vec2 gravity = b2Vec2(acceleration.y * PTM_RATIO, -acceleration.x * PTM_RATIO);
+    
+    // 调整box2D世界的加速度
     world->SetGravity(gravity);
 }
 

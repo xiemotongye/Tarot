@@ -5,18 +5,38 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
+	<string>BB2C8E4C-2AE0-4385-BEB3-CD8F292081CA</string>
+=======
 	<string>B6CAABF3-CCB3-44E8-87FB-5204D0B4FBAC</string>
+>>>>>>> origin/master
 	<key>IDESourceControlProjectName</key>
 	<string>Tarot</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
+		<key>C5246A44-69EF-467B-950B-84EBDD90F50C</key>
+		<string>ssh://github.com/xiemotongye/Tarot.git</string>
+=======
 		<key>9D08BB6C-BF2B-4005-A3CD-F1342100BF0A</key>
 		<string>ssh://github_personal/xiemotongye/Tarot.git</string>
+>>>>>>> origin/master
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Tarot.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
+		<key>C5246A44-69EF-467B-950B-84EBDD90F50C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/xiemotongye/Tarot.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C5246A44-69EF-467B-950B-84EBDD90F50C</string>
+=======
 		<key>9D08BB6C-BF2B-4005-A3CD-F1342100BF0A</key>
 		<string>../..</string>
 	</dict>
@@ -26,13 +46,18 @@
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>9D08BB6C-BF2B-4005-A3CD-F1342100BF0A</string>
+>>>>>>> origin/master
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
+			<string>C5246A44-69EF-467B-950B-84EBDD90F50C</string>
+=======
 			<string>9D08BB6C-BF2B-4005-A3CD-F1342100BF0A</string>
+>>>>>>> origin/master
 			<key>IDESourceControlWCCName</key>
 			<string>Tarot</string>
 		</dict>
