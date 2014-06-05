@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B6CAABF3-CCB3-44E8-87FB-5204D0B4FBAC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tarot</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9D08BB6C-BF2B-4005-A3CD-F1342100BF0A</key>
+		<string>ssh://github_personal/xiemotongye/Tarot.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tarot.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9D08BB6C-BF2B-4005-A3CD-F1342100BF0A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github_personal/xiemotongye/Tarot.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9D08BB6C-BF2B-4005-A3CD-F1342100BF0A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9D08BB6C-BF2B-4005-A3CD-F1342100BF0A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tarot</string>
+		</dict>
+	</array>
+</dict>
+</plist>
